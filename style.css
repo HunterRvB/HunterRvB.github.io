@@ -1,13 +1,10 @@
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.p1{
+.pre{
     position: relative;
     top: 50px; 
     text-align: center;
@@ -20,7 +17,7 @@
     background: rgb(45, 41, 41);
 }
 .side-nav{
-    width: 300px;
+    width: 200px;
     height: 100%;
     background: rgb(249, 249, 249);
     position: fixed;
@@ -30,7 +27,7 @@
 }
 .nav-links{
     list-style: none;
-    position: sticky;
+    position: relative;
     
     }
 .nav-links li{
@@ -52,4 +49,7 @@
     font-size: 25px;
 
 }
+.project1{
+    column-count: 2;
 
+}
