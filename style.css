@@ -1,55 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.pre{
+
+header {
+    margin-left: 17vw;
+    background: rgb(45, 41, 41);
+    text-align: center;
+    padding: 10px;
+}
+
+.main {
     position: relative;
-    top: 50px; 
     text-align: center;
     font-size: 18px;
     background: rgb(45, 41, 41);
+    width: 83vw;
+    margin-left: 17vw;
 }
-.header{
-    width: 100vw;
-    height: 100vh;
-    background: rgb(45, 41, 41);
-}
-.side-nav{
-    width: 200px;
+
+.side-nav {
+    width: 17vw;
     height: 100%;
     background: rgb(249, 249, 249);
     position: fixed;
     top: 0;
     left: 0;
-    padding:20px 30px;
+    padding: 20px 30px;
+
 }
-.nav-links{
+
+.nav-links {
     list-style: none;
     position: relative;
-    
-    }
-.nav-links li{
+
+}
+
+.nav-links li {
     padding: 30px 0;
     font-size: 25px;
     text-align: center;
-}    
-.nav-links li a{
+}
+
+.nav-links li a {
     color: rgb(7, 7, 7);
-    position:  bottom 200px;
+    position: bottom 200px;
     text-decoration: none;
     padding: 10px 14px;
     font-size: 22px;
- margin-right: 14px;
+    margin-right: 14px;
 
 }
-.nav-links li a i{
+
+.nav-links li a i {
     margin-right: 10px;
     font-size: 25px;
 
 }
-.project1{
-    column-count: 2;
+
+.projects {
+    display: flex;
 
 }
