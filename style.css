@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    overflow-x: hidden; 
+      
 }
 
 header {
     margin-left: 17vw;
     background: rgb(45, 41, 41);
     text-align: center;
-    padding: 10px;
+    padding: 13px;
 }
 
 .main {
@@ -62,5 +64,14 @@ header {
 
 .projects {
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project1 {
+    max-width: 500px;
+    width: 500px;
+}
+.project2 {
+    max-width: 500px;
+    width: 500px;
 }
