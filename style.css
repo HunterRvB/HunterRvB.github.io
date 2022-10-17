@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    overflow-x: hidden; 
-      
+    font-family: sans-serif; 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
 
 header {
     margin-left: 17vw;
@@ -15,13 +16,22 @@ header {
 }
 
 .main {
-    position: relative;
-    text-align: center;
+    overflow-x: hidden;
+    text-align: left;
     font-size: 18px;
     background: rgb(45, 41, 41);
-    width: 83vw;
     margin-left: 17vw;
+    text-align: center;
 }
+#photo {
+    width: 300px; 
+    height: 250px;
+    float: right;
+    margin-right: 20vw;
+}
+.about-me {
+    max-width: 60vw;
+    }
 
 .side-nav {
     width: 17vw;
@@ -31,7 +41,6 @@ header {
     top: 0;
     left: 0;
     padding: 20px 30px;
-
 }
 
 .nav-links {
